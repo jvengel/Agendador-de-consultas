@@ -1,0 +1,67 @@
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styles for main */
+main {
+    padding: 20px;
+}
+
+.agendartitle h1 {
+    color: #333;
+    font-size: 20px;
+}
+
+.agendartext label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.agendartext input[type="text"],
+.agendartext select,
+.agendartext input[type="date"],
+.agendartext input[type="time"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.agendartext input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
